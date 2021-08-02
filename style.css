@@ -18,6 +18,17 @@
     --white-alpha-40: rgba(255,255,255, 0.40);
     --white-alpha-25: rgba(255,255,255, 0.25);
     --backdrop-filter-blur: blur(7px);
+    --blue-background: #C2E9F6;
+    --blue-border: #72cce3;
+    --blue-color: #96dcee;
+    --yellow-background: #fffaa8;
+    --yellow-border: #f5eb71;
+    /** dark side **/
+    --indigo-background: #808fc7;
+    --indigo-border: #5d6baa;
+    --indigo-color: #6b7abb;
+    --gray-border: #e8e8ea;
+    --gray-dots: #e8e8ea;                           
 
 }
 ::before,
@@ -242,7 +253,6 @@ section.fade-out{
 }
 .section-title h2{
     font-size: 40px;
-    text-transform: capitalize;
     transition: all 0.5s ease-in-out;
 }
 .main{
@@ -504,6 +514,7 @@ button{
 .portfolio-item-thumbnail img{
     width: 100%;
     border-radius: 10px;
+    height: 180px;
 }
 .portfolio-item-details{
     display: none;
@@ -862,4 +873,4 @@ button{
     .pp-header h3{
         font-size: 20px;
     }
-}
+} 

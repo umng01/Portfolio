@@ -147,5 +147,3 @@ function portfolioitemdetails(portfolioitem){
     portfolioitem.querySelector(".portfolio-item-details").innerHTML;
 }
 document.querySelector(".pp-close").addEventListener("click", togglepp);
-
-
